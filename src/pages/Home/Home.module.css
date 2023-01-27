@@ -1,0 +1,13 @@
+.wrapper {
+  padding-top: 20px;
+}
+
+.likedBtn {
+  background-color: var(--primary_light);
+  padding: 8px 10px;
+  border-radius: 10px;
+}
+
+.likedBtn:active {
+  background-color: var(--primary_shade);
+}

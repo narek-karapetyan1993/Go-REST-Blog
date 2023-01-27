@@ -1,0 +1,192 @@
+.s6 > svg {
+  width: 6px;
+  height: 6px;
+}
+.s8 > svg {
+  width: 8px;
+  height: 8px;
+}
+.s10 > svg {
+  width: 10px;
+  height: 10px;
+}
+.s11 > svg {
+  width: 11px;
+  height: 11px;
+}
+.s12 > svg {
+  width: 12px;
+  height: 12px;
+}
+.s13 > svg {
+  width: 13px;
+  height: 13px;
+}
+.s14 > svg {
+  width: 14px;
+  height: 14px;
+}
+.s15 > svg {
+  width: 15px;
+  height: 15px;
+}
+.s16 > svg {
+  width: 16px;
+  height: 16px;
+}
+.s17 > svg {
+  width: 17px;
+  height: 17px;
+}
+.s18 > svg {
+  width: 18px;
+  height: 18px;
+}
+.s19 > svg {
+  width: 19px;
+  height: 19px;
+}
+.s20 > svg {
+  width: 20px;
+  height: 20px;
+}
+.s21 > svg {
+  width: 21px;
+  height: 21px;
+}
+.s22 > svg {
+  width: 22px;
+  height: 22px;
+}
+.s23 > svg {
+  width: 23px;
+  height: 23px;
+}
+.s24 > svg {
+  width: 24px;
+  height: 24px;
+}
+.s25 > svg {
+  width: 25px;
+  height: 25px;
+}
+.s26 > svg {
+  width: 26px;
+  height: 26px;
+}
+.s27 > svg {
+  width: 27px;
+  height: 27px;
+}
+.s28 > svg {
+  width: 28px;
+  height: 28px;
+}
+.s29 > svg {
+  width: 29px;
+  height: 29px;
+}
+.s30 > svg {
+  width: 30px;
+  height: 30px;
+}
+
+.primary * {
+  fill: var(--primary);
+  stroke: var(--primary);
+}
+
+.primary_light * {
+  fill: var(--primary_light);
+  stroke: var(--primary_light);
+}
+
+.primary_shade * {
+  fill: var(--primary_shade);
+  stroke: var(--primary_shade);
+}
+
+.pink_light * {
+  fill: var(--pink_light);
+  stroke: var(--pink_light);
+}
+
+.pink_violet * {
+  fill: var(--pink_violet);
+  stroke: var(--pink_violet);
+}
+
+.secondary * {
+  fill: var(--secondary);
+  stroke: var(--secondary);
+}
+
+.secondary_light * {
+  fill: var(--secondary_light);
+  stroke: var(--secondary_light);
+}
+
+.secondary_shade * {
+  fill: var(--secondary_shade);
+  stroke: var(--secondary_shade);
+}
+
+.red_input * {
+  fill: var(--red_input);
+  stroke: var(--red_input);
+}
+
+.green_input * {
+  fill: var(--green_input);
+  stroke: var(--green_input);
+}
+
+.gold * {
+  fill: var(--gold);
+  stroke: var(--gold);
+}
+
+.white * {
+  fill: var(--white);
+  stroke: var(--white);
+}
+
+.grey_light * {
+  fill: var(--grey_light);
+  stroke: var(--grey_light);
+}
+
+.md_grey * {
+  fill: var(--md_grey);
+  stroke: var(--md_grey);
+}
+
+.grey * {
+  fill: var(--grey);
+  stroke: var(--grey);
+}
+
+.grey_shade * {
+  fill: var(--grey_shade);
+  stroke: var(--grey_shade);
+}
+
+.black * {
+  fill: var(--black);
+  stroke: var(--black);
+}
+
+.background20 * {
+  fill: var(--background20);
+  stroke: var(--background20);
+}
+
+.lime_color * {
+  fill: var(--lime_color);
+  stroke: var(--lime_color);
+}
+
+.bone * {
+  fill: var(--bone);
+  stroke: var(--bone);
+}

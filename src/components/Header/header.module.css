@@ -1,0 +1,18 @@
+.header {
+  height: 100px;
+  background-color: var(--primary);
+}
+
+.wrapper {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  font-size: 35px;
+  font-weight: 600;
+  color: var(--black);
+}
+
