@@ -10,7 +10,7 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<Layout />}>
-        <Route index element={<Home />} />
+        <Route path="/Go-REST-Blog" element={<Home />} />
         <Route
           path="*"
           element={
