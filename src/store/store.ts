@@ -1,4 +1,3 @@
-
 import postsSlice from "features/posts/postsSlice";
 import likedSlice from "features/liked/likedSlice";
 
