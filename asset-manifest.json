@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Go-REST-Blog/static/css/main.cbfee945.css",
-    "main.js": "/Go-REST-Blog/static/js/main.02681811.js",
+    "main.js": "/Go-REST-Blog/static/js/main.dff74caa.js",
     "static/css/421.6e15c244.chunk.css": "/Go-REST-Blog/static/css/421.6e15c244.chunk.css",
     "static/js/421.e1431b9d.chunk.js": "/Go-REST-Blog/static/js/421.e1431b9d.chunk.js",
     "static/js/787.f587e8d5.chunk.js": "/Go-REST-Blog/static/js/787.f587e8d5.chunk.js",
@@ -13,13 +13,13 @@
     "static/media/open-sans-v34-latin_cyrillic-700.woff2": "/Go-REST-Blog/static/media/open-sans-v34-latin_cyrillic-700.197d5bcc87b1c4d1f5f0.woff2",
     "index.html": "/Go-REST-Blog/index.html",
     "main.cbfee945.css.map": "/Go-REST-Blog/static/css/main.cbfee945.css.map",
-    "main.02681811.js.map": "/Go-REST-Blog/static/js/main.02681811.js.map",
+    "main.dff74caa.js.map": "/Go-REST-Blog/static/js/main.dff74caa.js.map",
     "421.6e15c244.chunk.css.map": "/Go-REST-Blog/static/css/421.6e15c244.chunk.css.map",
     "421.e1431b9d.chunk.js.map": "/Go-REST-Blog/static/js/421.e1431b9d.chunk.js.map",
     "787.f587e8d5.chunk.js.map": "/Go-REST-Blog/static/js/787.f587e8d5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cbfee945.css",
-    "static/js/main.02681811.js"
+    "static/js/main.dff74caa.js"
   ]
 }
