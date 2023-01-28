@@ -8,7 +8,7 @@ export function Header() {
     <header className={styles.header}>
       <div className="container">
         <div className={styles.wrapper}>
-          <Link className={styles.logo} to={"/"}>
+          <Link className={styles.logo} to={"/Go-REST-Blog"}>
             Go REST Blog
           </Link>
         </div>
