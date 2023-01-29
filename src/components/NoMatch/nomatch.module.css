@@ -9,16 +9,22 @@
   background-color: var(--grey_light);
 }
 
-.logo {
-  opacity: 0.2;
-}
-
-.logoIcon {
-  max-width: 161px;
-}
-
-.text * {
-  max-width: 276px;
+.error * {
+  max-width: 500px;
   font-weight: 400;
   text-align: center;
 }
+
+.text {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  color: var(--primary);
+}
+

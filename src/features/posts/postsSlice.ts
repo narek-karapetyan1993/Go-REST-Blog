@@ -13,12 +13,12 @@ export interface IPost {
 
 export interface IPostsState {
   posts: IPost[];
-  status: "" | "idle" | "loading" | "failed";
+  status: "idle" | "loading" | "succeeded" | "failed";
 }
 
 const initialState: IPostsState = {
   posts: [],
-  status: "",
+  status: "idle",
 };
 
 export const getPosts = createAsyncThunk(
@@ -50,6 +50,7 @@ export const postsSlice = createSlice({
       if (!post) return;
       post.liked = !post.liked;
     },
+
     deletePost: (state, action: PayloadAction<number>) => {
       state.posts = state.posts.filter(
         (element) => element.id !== action.payload
@@ -62,7 +63,7 @@ export const postsSlice = createSlice({
         state.status = "loading";
       })
       .addCase(getPosts.fulfilled, (state) => {
-        state.status = "idle";
+        state.status = "succeeded";
       })
       .addCase(getPosts.rejected, (state) => {
         state.status = "failed";

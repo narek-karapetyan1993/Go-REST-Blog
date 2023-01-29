@@ -1,8 +1,4 @@
-import {
-  setLikedTrue,
-  setLikedFalse,
-  selectLiked,
-} from "features/liked/likedSlice";
+import { setLikedTrue, setLikedFalse } from "features/liked/likedSlice";
 import { getPosts, selectPosts } from "features/posts/postsSlice";
 import React, { useEffect } from "react";
 import { useAppDispatch, useAppSelector } from "store/hooks";
@@ -13,8 +9,6 @@ import { PostList } from "./PostList";
 export function Home() {
   const dispatch = useAppDispatch();
   const postsData = useAppSelector(selectPosts);
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars
-  const likedState = useAppSelector(selectLiked);
 
   useEffect(() => {
     dispatch(getPosts());
